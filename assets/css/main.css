@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+}
+
+ul{
+  background: #ff3721;
+}
+
+li{
+  display:inline-block;
+  padding: 20px;
+  list-style: none;
+}
+
+a{
+  color:whitesmoke;
+  padding: 10px;
+}
+
+a:hover {
+  color:black;
+}
