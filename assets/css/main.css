@@ -2,6 +2,7 @@ body{
   background-color: #5b2d08;
   margin:0;
   padding:0;
+  font-family: sans-serif;
 }
 
 ul{
@@ -39,8 +40,8 @@ div{
   position: relative;
 }
 
-#panda1{
-  margin-left:140px;
+section.panel{
+  padding-left: 130px;
 }
 
 span{
@@ -48,9 +49,36 @@ span{
   top: 30px;
   left: 25px;
   color:whitesmoke;
-  font-family:sans-serif;
 }
 
-span#p1{
-  left:150px;
+.nav{
+  width: 100%;
+  margin:20px;
+  padding-left: 130px;
+}
+
+.boton{
+  display: inline-block;
+  width: 350px;
+  padding: 1px;
+  color:whitesmoke;
+  text-align: center;
+  background-color:#ff3721;
+  font-size: 20px;
+}
+
+.historia{
+  display:inline-block;
+  width: 40%;
+  padding-left: 130px;
+  text-align: justify;
+  color:whitesmoke;
+}
+
+.origen{
+  display:inline-block;
+  width: 40%;
+  padding-left:30px;
+  text-align: justify;
+  color:whitesmoke;
 }
