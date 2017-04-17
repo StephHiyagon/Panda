@@ -8,42 +8,34 @@ var span2=document.getElementById('p2');
 var span3=document.getElementById('p3');
 var span4=document.getElementById('p4');
 
-// var images=document.getElementById('images');
-// images.addEventListener('click',ocultar);
-//
-// function ocultar(event){
-//   if(e.target.tagName=="span"){
-//   console.log(e.target);
-//   }
-//
-// }
-span1.addEventListener('click',ocultar1);
-span2.addEventListener('click',ocultar2);
-span3.addEventListener('click',ocultar3);
-span4.addEventListener('click',ocultar4);
+var images=document.getElementById('images');
+images.addEventListener('click',ocultar);
 
-function ocultar1(event){
-  foto1.style.display="none";
-  span1.style.display="none";
-}
-
-function ocultar2(event){
-  foto2.style.display="none";
-  span2.style.display="none";
-}
-
-function ocultar3(event){
-  foto3.style.display="none";
-  span3.style.display="none";
-}
-
-function ocultar4(event){
-  foto4.style.display="none";
-  span4.style.display="none";
+function ocultar(event){
+  if(event.target.tagName=="SPAN"){
+  // console.log(event.target.id);
+  switch (event.target.id) {
+    case "p1":
+      foto1.style.display="none";
+      span1.style.display="none";
+      break;
+    case "p2":
+      foto2.style.display="none";
+      span2.style.display="none";
+      break;
+    case "p3":
+      foto3.style.display="none";
+      span3.style.display="none";
+      break;
+    case "p4":
+      foto4.style.display="none";
+      span4.style.display="none";
+      break;
+    }
+  }
 }
 
 var restaura=document.getElementById('restaurar');
-
 restaura.addEventListener('click',function(){
   var foto=document.getElementsByClassName('fotos');
   var span=document.getElementsByClassName('span');
