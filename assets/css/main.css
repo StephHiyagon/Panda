@@ -49,6 +49,7 @@ span{
   top: 30px;
   left: 25px;
   color:whitesmoke;
+  cursor: pointer;
 }
 
 .nav{
@@ -65,6 +66,7 @@ span{
   text-align: center;
   background-color:#ff3721;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .historia{
@@ -73,6 +75,7 @@ span{
   padding-left: 130px;
   text-align: justify;
   color:whitesmoke;
+  visibility: visible;
 }
 
 .origen{
@@ -81,4 +84,5 @@ span{
   padding-left:30px;
   text-align: justify;
   color:whitesmoke;
+  visibility: visible;
 }
