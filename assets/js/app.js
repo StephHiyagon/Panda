@@ -36,14 +36,20 @@ function ocultar4(event){
 var restaura=document.getElementById('restaurar');
 
 restaura.addEventListener('click',function(){
-  foto1.style.display="block";
-  span1.style.display="block";
-  foto2.style.display="block";
-  span2.style.display="block";
-  foto3.style.display="block";
-  span3.style.display="block";
-  foto4.style.display="block";
-  span4.style.display="block";
+  var foto=document.getElementsByClassName('fotos');
+  var span=document.getElementsByClassName('span');
+  for(var i=0;i<4;i++){
+    foto[i].style.display="block";
+    span[i].style.display="block";
+  }
+  // foto1.style.display="block";
+  // span1.style.display="block";
+  // foto2.style.display="block";
+  // span2.style.display="block";
+  // foto3.style.display="block";
+  // span3.style.display="block";
+  // foto4.style.display="block";
+  // span4.style.display="block";
 });
 //comienzan la interacción con los botones
 var origen=document.getElementById('origen');
