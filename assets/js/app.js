@@ -33,14 +33,23 @@ restaura.addEventListener('click',function(){
   foto4.style.display="block";
   span4.style.display="block";
 });
-
+//comienzan la interacción con los botones
 var origen=document.getElementById('origen');
-
+var parrafo1=document.getElementById('historiaP');
 origen.addEventListener('click',function(){
-  var parrafo1=document.getElementById('historiaP');
-  if(parrafo1.style.visibility=="visible"){
-    parrafo1.style.visibility="hidden";
+    if(parrafo1.style.visibility=="hidden"){
+    parrafo1.style.visibility="visible";
   } else {
-    parrafo1.style.display="visible";
+    parrafo1.style.visibility="hidden";
   }
 });
+
+var historia=document.getElementById('extincion');
+var parrafo2=document.getElementById('origenP');
+historia.addEventListener('click',function(){
+    if(parrafo2.style.visibility=="hidden"){
+    parrafo2.style.visibility="visible";
+  } else {
+    parrafo2.style.visibility="hidden";
+  }
+})
