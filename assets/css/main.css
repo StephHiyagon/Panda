@@ -75,8 +75,7 @@ span{
 }
 
 .boton:hover{
-  background-color: #ff3721;
-  color:black;
+  border:1px solid whitesmoke;
 }
 
 .historia{
