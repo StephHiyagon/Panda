@@ -10,6 +10,8 @@ var span4=document.getElementById('p4');
 
 span1.addEventListener('click',ocultar1);
 span2.addEventListener('click',ocultar2);
+span3.addEventListener('click',ocultar3);
+span4.addEventListener('click',ocultar4);
 
 function ocultar1(event){
   foto1.style.display="none";
@@ -19,6 +21,16 @@ function ocultar1(event){
 function ocultar2(event){
   foto2.style.display="none";
   span2.style.display="none";
+}
+
+function ocultar3(event){
+  foto3.style.display="none";
+  span3.style.display="none";
+}
+
+function ocultar4(event){
+  foto4.style.display="none";
+  span4.style.display="none";
 }
 
 var restaura=document.getElementById('restaurar');
@@ -44,7 +56,7 @@ origen.addEventListener('click',function(){
   }
 });
 
-var historia=document.getElementById('extincion');
+var historia=document.getElementById('historia');
 var parrafo2=document.getElementById('origenP');
 historia.addEventListener('click',function(){
     if(parrafo2.style.visibility=="hidden"){
