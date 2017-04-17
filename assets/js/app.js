@@ -8,6 +8,15 @@ var span2=document.getElementById('p2');
 var span3=document.getElementById('p3');
 var span4=document.getElementById('p4');
 
+// var images=document.getElementById('images');
+// images.addEventListener('click',ocultar);
+//
+// function ocultar(event){
+//   if(e.target.tagName=="span"){
+//   console.log(e.target);
+//   }
+//
+// }
 span1.addEventListener('click',ocultar1);
 span2.addEventListener('click',ocultar2);
 span3.addEventListener('click',ocultar3);
@@ -42,14 +51,7 @@ restaura.addEventListener('click',function(){
     foto[i].style.display="block";
     span[i].style.display="block";
   }
-  // foto1.style.display="block";
-  // span1.style.display="block";
-  // foto2.style.display="block";
-  // span2.style.display="block";
-  // foto3.style.display="block";
-  // span3.style.display="block";
-  // foto4.style.display="block";
-  // span4.style.display="block";
+
 });
 //comienzan la interacción con los botones
 var origen=document.getElementById('origen');

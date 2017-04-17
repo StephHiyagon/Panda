@@ -1,12 +1,12 @@
 body{
-  background-color: #1c1905;
+  background-color:#1D1A05;
   margin:0;
   padding:0;
   font-family: sans-serif;
 }
 
 ul{
-  background:#c93c26;
+  background:#ca3c25;
   margin:0;
 }
 
@@ -30,8 +30,8 @@ a:hover {
 }
 
 .fotos{
-  margin:20px 20px;
-  border:2px solid #575757;
+  margin:20px 15px;
+  border:5px solid #575757;
   height: 200px;
 }
 
@@ -51,8 +51,8 @@ section.panel{
 
 span{
   position: absolute;
-  top: 30px;
-  left: 25px;
+  top: 40px;
+  left: 35px;
   color:whitesmoke;
   cursor: pointer;
 }
@@ -69,7 +69,7 @@ span{
   padding: 1px;
   color:whitesmoke;
   text-align: center;
-  background-color:#c93c26;
+  background-color:#ca3c25;
   font-size: 20px;
   cursor: pointer;
 }
