@@ -1,12 +1,8 @@
-var foto1=document.getElementById('panda1');
-var foto2=document.getElementById('panda2');
-var foto3=document.getElementById('panda3');
-var foto4=document.getElementById('panda4');
 
-var span1=document.getElementById('p1');
-var span2=document.getElementById('p2');
-var span3=document.getElementById('p3');
-var span4=document.getElementById('p4');
+var div1=document.getElementById('div1');
+var div2=document.getElementById('div2');
+var div3=document.getElementById('div3');
+var div4=document.getElementById('div4');
 
 var images=document.getElementById('images');
 images.addEventListener('click',ocultar);
@@ -16,20 +12,16 @@ function ocultar(event){
   // console.log(event.target.id);
   switch (event.target.id) {
     case "p1":
-      foto1.style.display="none";
-      span1.style.display="none";
+      div1.style.display="none";
       break;
     case "p2":
-      foto2.style.display="none";
-      span2.style.display="none";
+      div2.style.display="none";
       break;
     case "p3":
-      foto3.style.display="none";
-      span3.style.display="none";
+      div3.style.display="none";
       break;
     case "p4":
-      foto4.style.display="none";
-      span4.style.display="none";
+      div4.style.display="none";
       break;
     }
   }
@@ -37,11 +29,9 @@ function ocultar(event){
 
 var restaura=document.getElementById('restaurar');
 restaura.addEventListener('click',function(){
-  var foto=document.getElementsByClassName('fotos');
-  var span=document.getElementsByClassName('span');
+  var divs=document.getElementsByClassName('divs');
   for(var i=0;i<4;i++){
-    foto[i].style.display="block";
-    span[i].style.display="block";
+    divs[i].style.display="inline-block";
   }
 
 });
