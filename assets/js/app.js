@@ -30,7 +30,6 @@ restaura.addEventListener('click',function(){
   for(var i=0;i<4;i++){
     divs[i].style.display="inline-block";
   }
-
 });
 //comienzan la interacción con los botones
 

@@ -21,7 +21,7 @@ li{
 }
 
 a{
-  color:whitesmoke;
+  color:#EBC08E;
   padding: 10px;
 }
 
@@ -67,7 +67,7 @@ span{
   display: inline-block;
   width: 350px;
   padding: 1px;
-  color:whitesmoke;
+  color:#EBC08E;
   text-align: center;
   background-color:#ca3c25;
   font-size: 20px;
@@ -83,7 +83,7 @@ span{
   width: 40%;
   padding-left: 130px;
   text-align: justify;
-  color:whitesmoke;
+  color:#8D966D;
   visibility: visible;
 }
 
@@ -92,6 +92,6 @@ span{
   width: 40%;
   padding-left:30px;
   text-align: justify;
-  color:whitesmoke;
+  color:#8D966D;
   visibility: visible;
 }
