@@ -12,21 +12,16 @@ Funcionalidades en JS
 - Function ocultar: Esta función se encarga de ocultar cada foto al hacer click sobre la "x"(etiqueta span).
 Se hizo un switch para la condicional que depende del objeto que desencadena el evento para ocultar (usa object.style.display="none") un elemento; obteniendo el objeto que desencadena el evento por medio de "event.target"; se tuvo que colocar un id="images" para poder seleccionar esta sección y se estableció que sólo reconozca si el objeto a clickear era un "span".
 
-.. image:: assets/images/ocultar.png
-   :width: 60 em
-   :align: center
+![function ocultar](assets/images/ocultar.png)
+
 
 - Function restaurar: Esta función se encarga de restaurar las fotos que se ocultaron; con lo cual coloca un object.style.display="block". Para esta función sólo necesitamos un ciclo for que recorra todo el array de la clase divs (var divs).
 
-.. image:: assets/images/restaura.png
-   :width: 60 em
-   :align: center
+![function restaura](assets/images/restaura.png)
 
 - Funcionalidad de ocultar/mostrar: Esta funcionalidad la vamos a observar en los articles. Lo que usamos aquí es visibility; porque deseamos que el espacio se mantenga y no colapse como con un display="none"; así que usaremos "hidden" para "desparecerlo" y "visible" para hacerlo visible.
 
-.. image:: assets/images/funcionalidad.png
-   :width: 60 em
-   :align: center
+![funcionalidades](assets/images/funcionalidad.png)
 
 
 ## Autor: Stephanie Hiyagon.
