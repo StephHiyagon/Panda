@@ -12,6 +12,11 @@ Funcionalidades en JS
 - Function ocultar: Esta función se encarga de ocultar cada foto al hacer click sobre la "x"(etiqueta span).
 Se hizo un switch para la condicional que depende del objeto que desencadena el evento para ocultar (usa object.style.display="none") un elemento; obteniendo el objeto que desencadena el evento por medio de "event.target"; se tuvo que colocar un id="images" para poder seleccionar esta sección y se estableció que sólo reconozca si el objeto a clickear era un "span".
 
+.. _function_ocultar:
+
+.. only:: html
+
+   **Function ocultar:**
 .. figure:: assets/images/ocultar.png
    :width: 60 em
    :align: center
