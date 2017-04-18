@@ -7,6 +7,7 @@ var historia=document.getElementById('historia');
 var parrafo2=document.getElementById('origenP');
 
 function ocultar(event){
+  event.preventDefault();
   if(event.target.tagName=="SPAN"){
   // console.log(event.target.id);
   switch (event.target.id) {
@@ -26,23 +27,26 @@ function ocultar(event){
   }
 }
 
-restaura.addEventListener('click',function(){
+restaura.addEventListener('click',function(event){
+  event.preventDefault();
   for(var i=0;i<4;i++){
     divs[i].style.display="inline-block";
   }
 });
 //comienzan la interacción con los botones
 
-origen.addEventListener('click',function(){
-    if(parrafo1.style.visibility=="hidden"){
+origen.addEventListener('click',function(event){
+  event.preventDefault();
+  if(parrafo1.style.visibility=="hidden"){
     parrafo1.style.visibility="visible";
   } else {
     parrafo1.style.visibility="hidden";
   }
 });
 
-historia.addEventListener('click',function(){
-    if(parrafo2.style.visibility=="hidden"){
+historia.addEventListener('click',function(event){
+  event.preventDefault();
+  if(parrafo2.style.visibility=="hidden"){
     parrafo2.style.visibility="visible";
   } else {
     parrafo2.style.visibility="hidden";
